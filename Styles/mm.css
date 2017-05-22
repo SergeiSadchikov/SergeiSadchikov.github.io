@@ -1,0 +1,10 @@
+.first-page .wrk-body{
+    width: 90vw;
+    margin-left: 10vw;
+    background: url(../Source/img/mm/mm_cover.jpg) no-repeat;
+    background-position:top left;
+    background-size:contain;
+}
+.content-container{
+    color: black;
+}

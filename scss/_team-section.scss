@@ -1,0 +1,31 @@
+#TeamSection {
+    height: 99.9vh;
+    background-image: url('../Source/img/abouteambackground/01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 2s;
+}
+
+.team-content {
+    height: 100%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 50px;
+}
+
+.logo-big {
+    height: 33vh;
+    padding-bottom: 100px;
+}
+
+.txt-about {
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 50%;
+    padding-bottom: 100px;
+    max-height: 40vh;
+    overflow: hidden;
+}

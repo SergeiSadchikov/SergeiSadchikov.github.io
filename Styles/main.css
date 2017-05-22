@@ -1,0 +1,709 @@
+@charset "UTF-8";
+/* line 2, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_reset.scss */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  outline: none;
+  -webkit-tap-highlight-color: transparent; }
+
+/* line 10, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_reset.scss */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: 0; }
+
+/* line 99, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_reset.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+/* line 113, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 117, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_reset.scss */
+ol,
+ul {
+  list-style: none; }
+
+/* line 122, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_reset.scss */
+blockquote,
+q {
+  quotes: none; }
+  /* line 125, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_reset.scss */
+  blockquote:before, blockquote:after,
+  q:before,
+  q:after {
+    content: '';
+    content: none; }
+
+/* line 132, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_reset.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 140, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_reset.scss */
+sup {
+  top: -.5em; }
+
+/* line 144, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_reset.scss */
+sub {
+  bottom: -.25em; }
+
+/* line 148, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_reset.scss */
+table {
+  border-spacing: 0;
+  border-collapse: collapse; }
+
+/* line 153, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_reset.scss */
+input,
+textarea,
+button,
+select {
+  font-family: inhert;
+  font-size: inherit;
+  color: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none; }
+
+/* line 164, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_reset.scss */
+select {
+  text-indent: .01px;
+  text-overflow: '';
+  border: 0;
+  border-radius: 0; }
+
+/* line 171, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_reset.scss */
+select::-ms-expand {
+  display: none; }
+
+/* line 175, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_reset.scss */
+code,
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* line 180, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_reset.scss */
+a {
+  text-decoration: none;
+  color: inherit; }
+
+/* line 1, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_common.scss */
+body {
+  box-sizing: border-box;
+  font-family: Open Sans;
+  min-width: 750px; }
+
+/* line 6, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_common.scss */
+a {
+  text-decoration: none;
+  color: inherit; }
+
+/* line 10, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_common.scss */
+a:hover {
+  text-decoration: none; }
+
+/* line 13, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_common.scss */
+.section {
+  min-width: 750px; }
+
+/* line 1, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_loader.scss */
+.loader-wrapper {
+  position: fixed;
+  display: flex;
+  z-index: 10000;
+  background: black;
+  height: 100vh;
+  width: 100vw;
+  transition: 2s; }
+
+/* line 10, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_loader.scss */
+.loader-wrapper img {
+  margin: auto;
+  transition: 2s; }
+
+/* line 1, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_modal-wrapper.scss */
+.modal-wrapper {
+  display: inline-block;
+  width: 80%;
+  height: 80%;
+  margin: 5% 10%; }
+
+/* line 1, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_404page.scss */
+.wrapper {
+  background: url(../Source/img/common/Team_Page_404.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%; }
+
+/* line 8, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_404page.scss */
+.text-wrapper {
+  color: white;
+  font-family: Open Sans;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 150px;
+  padding-bottom: 100px; }
+
+/* line 18, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_404page.scss */
+.text-wrapper h1 {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 20px; }
+
+/* line 23, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_404page.scss */
+.text-wrapper h3 {
+  font-size: 30px; }
+
+/* line 26, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_404page.scss */
+.text-wrapper h5 {
+  font-size: 20px; }
+
+/* line 1, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_menu.scss */
+.menu {
+  font-family: Open Sans;
+  font-size: 13px;
+  font-variant: small-caps;
+  text-align: center;
+  height: 10vh;
+  line-height: 10vh; }
+  /* line 8, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_menu.scss */
+  .menu a {
+    display: inline-block;
+    height: 100%;
+    width: 19%;
+    transition: 0.5s; }
+
+/* line 16, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_menu.scss */
+.menu-top {
+  color: rgba(255, 255, 255, 0.7);
+  padding-top: 1vh; }
+  /* line 19, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_menu.scss */
+  .menu-top a:hover:not(.logo-small-top) {
+    color: white; }
+
+/* line 24, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_menu.scss */
+.menu-bottom {
+  color: rgba(0, 0, 0, 0.7);
+  padding-top: 1vh;
+  padding-bottom: 1vh; }
+  /* line 28, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_menu.scss */
+  .menu-bottom:hover:not(.logo-small-bottom) {
+    color: 0, 0, 0, 1; }
+
+/* line 33, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_menu.scss */
+.logo-small {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: transparent; }
+
+/* line 40, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_menu.scss */
+.logo-small-top {
+  background-image: url(../Source/img/common/logo_creative_white.png); }
+
+/* line 44, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_menu.scss */
+.logo-small-bottom {
+  background-image: url(../Source/img/common/logo_creative_black.png); }
+
+/* line 1, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_buttons.scss */
+.button {
+  display: inline-block;
+  transition: 0.5s;
+  opacity: 0.7; }
+  /* line 5, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_buttons.scss */
+  .button:hover {
+    transition: 0.5s;
+    opacity: 1; }
+
+/* line 11, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_buttons.scss */
+.showreel {
+  background-image: url(../Source/img/common/watch_reel_txt.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  min-width: 200px;
+  height: 5vh;
+  left: 20px;
+  bottom: -78vh; }
+
+/* line 25, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_buttons.scss */
+.about-team {
+  background-image: url(../Source/img/common/watch_crew_txt.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  min-width: 200px;
+  height: 5vh; }
+
+/* line 1, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_showreel-section.scss */
+#ShowReelSection {
+  background-image: url(../Source/img/showreelbackground/01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  transition: 2s; }
+
+/* line 9, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_showreel-section.scss */
+.main-page-hashtag {
+  display: block;
+  float: right;
+  margin-top: 80vh;
+  width: 19vw;
+  height: 30px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center; }
+
+/* line 1, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-section.scss */
+#PortfolioSection {
+  height: 100vh;
+  background-color: black; }
+
+/* line 6, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-section.scss */
+#PortfolioSection span {
+  display: block; }
+
+/* line 10, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-section.scss */
+.portfolio-content {
+  height: 90%; }
+
+/* line 14, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-section.scss */
+.port-footer {
+  display: block;
+  height: 10%;
+  background-image: url(../Source/img/common/watch_works_txt.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  opacity: 0.7;
+  transition: 0.5s; }
+  /* line 23, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-section.scss */
+  .port-footer:hover {
+    opacity: 1;
+    transition: 0.5s; }
+
+/* line 29, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-section.scss */
+.video {
+  height: 100%; }
+  /* line 31, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-section.scss */
+  .video li {
+    display: inline-block;
+    position: relative;
+    height: 50%;
+    overflow: hidden;
+    float: left; }
+    /* line 38, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-section.scss */
+    .video li video {
+      height: 100%; }
+    /* line 41, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-section.scss */
+    .video li a {
+      display: block;
+      position: absolute;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      transition: 0.5s;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.9); }
+      /* line 51, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-section.scss */
+      .video li a:hover {
+        background-color: transparent;
+        transition: 0.5s; }
+        /* line 54, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-section.scss */
+        .video li a:hover span {
+          color: rgba(255, 255, 255, 0);
+          transition: 0.5s; }
+
+/* line 63, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-section.scss */
+.square-video {
+  width: 25%; }
+
+/* line 67, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-section.scss */
+.rectangle-video {
+  width: 50%; }
+
+/* line 71, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-section.scss */
+.video-name {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 45px; }
+
+/* line 79, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-section.scss */
+.video-type {
+  padding-top: 13vh; }
+
+/* line 83, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-section.scss */
+.video-type,
+.video-year {
+  display: block;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 10px; }
+
+/* line 1, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_team-section.scss */
+#TeamSection {
+  height: 99.9vh;
+  background-image: url("../Source/img/abouteambackground/01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 2s; }
+
+/* line 10, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_team-section.scss */
+.team-content {
+  height: 100%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 50px; }
+
+/* line 20, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_team-section.scss */
+.logo-big {
+  height: 33vh;
+  padding-bottom: 100px; }
+
+/* line 25, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_team-section.scss */
+.txt-about {
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 50%;
+  padding-bottom: 100px;
+  max-height: 40vh;
+  overflow: hidden; }
+
+/* line 1, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_contacts-section.scss */
+#ContactsSection {
+  position: relative;
+  height: 100vh;
+  background-image: url(../Source/img/common/contacts-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box; }
+
+/* line 10, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_contacts-section.scss */
+.video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 1; }
+
+/* line 20, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_contacts-section.scss */
+.video-box {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%; }
+
+/* line 27, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_contacts-section.scss */
+.video-box video {
+  display: inline-block;
+  height: 100%;
+  transform: translateX(-50%);
+  min-height: 768px; }
+
+/* line 34, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_contacts-section.scss */
+.info-block {
+  display: inline-flex;
+  height: 100vh;
+  width: 50%;
+  padding-bottom: 100px;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  position: relative;
+  z-index: 2; }
+
+/* line 45, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_contacts-section.scss */
+.block-left {
+  padding-left: 50px; }
+
+/* line 48, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_contacts-section.scss */
+.block-left span {
+  font-size: 30px; }
+
+/* line 52, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_contacts-section.scss */
+.block-right {
+  text-transform: uppercase;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.6);
+  padding-right: 50px; }
+
+/* line 59, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_contacts-section.scss */
+.block-right a {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 10px; }
+
+/* line 1, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_ref-block.scss */
+.refs li {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-right: 10px; }
+
+/* line 8, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_ref-block.scss */
+.refs a {
+  display: block;
+  height: 100%;
+  width: 100%; }
+
+/* line 13, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_ref-block.scss */
+.ref-vimeo {
+  background: url(../Source/img/common/button_vimeo.png) no-repeat;
+  background-size: contain; }
+
+/* line 17, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_ref-block.scss */
+.ref-facebook {
+  background: url(../Source/img/common/button_facebook.png) no-repeat;
+  background-size: contain; }
+
+/* line 21, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_ref-block.scss */
+.ref-vk {
+  background: url(../Source/img/common/button_vk.png) no-repeat;
+  background-size: contain; }
+
+/* line 25, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_ref-block.scss */
+.ref-instagram {
+  background: url(../Source/img/common/button_inst.png) no-repeat;
+  background-size: contain; }
+
+/* line 1, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-page.scss */
+.portfolio-top-menu {
+  background-color: black;
+  height: 12vh;
+  padding-bottom: 2vh; }
+
+/* line 6, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-page.scss */
+.portfolio-bottom-menu {
+  height: 12vh;
+  margin-bottom: 1vh; }
+
+/* line 10, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-page.scss */
+.portfolio-video-block {
+  display: inline-block;
+  position: relative;
+  width: 33.33333%;
+  box-sizing: border-box;
+  height: 45vh;
+  overflow: hidden;
+  float: left; }
+  /* line 18, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-page.scss */
+  .portfolio-video-block video {
+    height: 100%; }
+  /* line 21, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-page.scss */
+  .portfolio-video-block a {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-align: center;
+    transition: 0.5s; }
+    /* line 31, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-page.scss */
+    .portfolio-video-block a:hover {
+      background-color: transparent;
+      transition: 0.5s; }
+      /* line 34, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-page.scss */
+      .portfolio-video-block a:hover span {
+        color: rgba(255, 255, 255, 0);
+        transition: 0.5s; }
+
+/* line 41, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_portfolio-page.scss */
+.portfolio-video-block:last-child {
+  margin-bottom: 1vh; }
+
+/* line 1, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_work-page.scss */
+.btn-back {
+  position: fixed;
+  z-index: 50;
+  display: block;
+  float: left;
+  width: 10vw;
+  height: 100vh;
+  color: white;
+  line-height: 100vh;
+  font-size: 40px;
+  text-align: center;
+  background-color: black;
+  transition: 0.5s; }
+  /* line 14, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_work-page.scss */
+  .btn-back i {
+    color: white; }
+  /* line 17, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_work-page.scss */
+  .btn-back:hover {
+    font-size: 60px;
+    transition: 0.5s; }
+    /* line 20, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_work-page.scss */
+    .btn-back:hover i {
+      color: white; }
+
+/* line 26, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_work-page.scss */
+.wrk-body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: black; }
+
+/* line 33, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_work-page.scss */
+.content-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  color: white;
+  font-family: Open Sans;
+  padding-right: 80px;
+  padding-bottom: 50px; }
+  /* line 43, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_work-page.scss */
+  .content-container p:last-child {
+    padding-bottom: 20px; }
+  /* line 46, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_work-page.scss */
+  .content-container img {
+    margin-bottom: 30px;
+    width: 300px;
+    align-self: flex-end; }
+
+/* line 53, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_work-page.scss */
+.work-name {
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 60px;
+  letter-spacing: 1px; }
+
+/* line 60, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_work-page.scss */
+.hashtags {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-size: 18px; }
+
+/* line 66, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_work-page.scss */
+.work-description {
+  max-width: 50vw;
+  align-self: flex-end; }
+
+/* line 71, ../../Users/Сергей Садчиков/Desktop/OkGoProd Refactoring/OkGoProd/scss/_work-page.scss */
+.video-container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 90vw;
+  margin-left: 10vw; }
+
+/*# sourceMappingURL=main.css.map */

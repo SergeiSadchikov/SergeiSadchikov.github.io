@@ -1,0 +1,28 @@
+.refs li{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.refs a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.ref-vimeo{
+    background: url(../Source/img/common/button_vimeo.png) no-repeat;
+    background-size: contain;
+}
+.ref-facebook{
+    background: url(../Source/img/common/button_facebook.png) no-repeat;
+    background-size: contain;
+}
+.ref-vk{
+    background: url(../Source/img/common/button_vk.png) no-repeat;
+    background-size: contain;
+}
+.ref-instagram{
+    background: url(../Source/img/common/button_inst.png) no-repeat;
+    background-size: contain;
+}

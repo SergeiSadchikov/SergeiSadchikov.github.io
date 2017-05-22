@@ -1,0 +1,8 @@
+.first-page .wrk-body {
+    background-image: url('../Source/img/meatboss/1st_section.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.third-page .wrk-body {
+    background-image: url('../Source/img/meatboss/3rd_section.png');
+}

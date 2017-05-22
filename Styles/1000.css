@@ -1,0 +1,6 @@
+.first-page .wrk-body {
+    background-image: url('../Source/img/1000/1000_cover.jpg');
+    background-size:cover;
+    background-position: right;
+    background-repeat:no-repeat;
+}
