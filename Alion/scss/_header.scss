@@ -1,0 +1,29 @@
+svg {
+    display: block;
+    margin: auto;
+    width: 70%;
+    max-height: 8vh;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#logo{
+    width:70%;
+    max-height: 10vh;
+    background: white;
+}
+#MenuHeader *{
+    fill-opacity: 0;
+    transition: fill-opacity 0.5s;
+    will-change: opacity;
+}
+#MenuHeader.finished *{
+  fill-opacity: 1;
+}
+
+object{
+    width: 70%;
+    max-height: 8vh;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}

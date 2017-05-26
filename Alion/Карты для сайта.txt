@@ -1,0 +1,17 @@
+Солнечный :
+<a href="https://yandex.ru/maps/-/C6HQZWYu">«РА АЛИОН» на Яндекс.Картах</a>
+
+
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae2bc20d2c6a36194488aa68a90d0eed206f2eb9008ba4e8976a2e4ae472d6fd5&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+
+Юбилейный:
+
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af7ca129e8b9d8eea1366bc3c87a12c67751e67acb7c885a40f88f806d7bb0f58&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+
+<a href="https://yandex.ru/maps/-/C6HUZJpN">«РА АЛИОН» на Яндекс.Картах</a>
+
+Энгельс: 
+
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A72a95297b74156907453cef446b7b9814b5a331701314329969fc88a1b48cfdd&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+
+<a href="https://yandex.ru/maps/-/C6HYvXPe">«РА АЛИОН» на Яндекс.Картах</a>

@@ -1,0 +1,14 @@
+.additional-info {
+    max-width: 500px;
+    min-width: 340px;
+    margin: 0 auto;
+    & ul {
+        margin: auto;
+        width: 50%;
+        min-width: 300px;
+        & li {
+            text-align: left;
+            padding-left: 15px;
+        }
+    }
+}

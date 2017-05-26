@@ -1,0 +1,8 @@
+.contacts{
+    list-style: none;
+    padding: 0;
+    & li{
+        text-align: center;
+        padding-top: 10px;
+    }
+}
