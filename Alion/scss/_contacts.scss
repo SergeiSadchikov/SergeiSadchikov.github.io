@@ -4,5 +4,8 @@
     & li{
         text-align: center;
         padding-top: 10px;
+        &:last-child{
+            padding-bottom: 150px;
+        }
     }
 }

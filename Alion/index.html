@@ -17,23 +17,19 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body>
     <div class="loader">
-        <!--SVG here-->
+        <object data="SVG_Test_animated.svg" type="image/svg+xml" id="Logo"></object>
     </div>
     <div class="black-bg">
-
 
         <div class="container">
             <div class="row">
                 <section class="col-xs-12 black-section">
-
-                    <div class="col-xs-12">
-                        <!--SVG here-->
-                    </div>
-
+                   <!-- add tel-->
                     <img src="source/logo.png" alt="logo" class="logo">
                 </section>
             </div>
@@ -93,6 +89,7 @@
                         <object data="source/districts_header.svg" type="image/svg+xml" id="DistrictsHeader">
                     </object>
                     </div>
+                    <a href="" name='districts-start'></a>
                     <div class="col-xs-12 close-button close-button-hidden">
                         <label for="Close"><i class="glyphicon glyphicon-remove"></i></label>
                         <input type="radio" id="Close" name="districts" value="4">
@@ -355,32 +352,8 @@
     </div>
     <script src="js/districts.js"></script>
     <script src="js/vivus.min.js"></script>
-    <script>
-        var menuHeader = new Vivus('MenuHeader', {
-                type: 'delayed',
-                duration: 150
-            }, function(obj) {
-                obj.el.classList.add('finished');
-            }),
-            districtsHeader = new Vivus('DistrictsHeader', {
-                type: 'delayed',
-                duration: 150
-            }),
-            workProgressHeader = new Vivus('WorkHeader', {
-                type: 'delayed',
-                duration: 150
-            }),
-            qualityHeader = new Vivus('QualityHeader', {
-                type: 'delayed',
-                duration: 150
-            }),
-            contactsHeader = new Vivus('ContactsHeader', {
-                type: 'delayed',
-                duration: 150
-            });
-
-    </script>
-
+    <script src="js/loader.js"></script>
+    <script src="js/headers.js"></script>
 </body>
 
 </html>
