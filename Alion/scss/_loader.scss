@@ -6,9 +6,12 @@
     justify-content: space-around;
     height: 100vh;
     background: black;
+    will-change: auto;
     transition: max-height 1s;
+    z-index: 1111;
 }
-
-.loader object {
-    margin:auto;
+.loader object{
+    margin: auto;
+    max-height: 11vh;
+    padding-top: 1vh;
 }

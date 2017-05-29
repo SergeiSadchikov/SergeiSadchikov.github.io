@@ -1,16 +1,12 @@
 (function () {
     'use strict';
-    $('.loader').css('max-height', '100vh');
-    $('html,body').animate({
-        scrollTop: 0
-    }, 500);
-    $('body').css('overflow-y', 'hidden');
-    var logo = new Vivus('Logo', {
-        type: 'sync',
+    $('.loader').css('position', 'fixed');
+    var topHeader = new Vivus('Logo', {
+        type: "delayed",
         duration: 100
     }, function () {
-        window.onload = $('.loader').css('max-height', '10vh');
-        $('body').css('overflow-y', 'auto');
 
+        window.onload = $('.loader').css('max-height', '10vh');
+        $('.loader').css('position', 'relative');
     });
 }());

@@ -482,32 +482,20 @@ svg {
   display: block;
   margin: auto;
   width: 70%;
-  max-height: 8vh;
+  max-height: 7vh;
   margin-top: 50px;
   margin-bottom: 30px; }
 
-/* line 10, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_header.scss */
-#logo {
-  width: 70%;
-  max-height: 10vh;
-  background: white; }
-
-/* line 15, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_header.scss */
-#MenuHeader * {
-  fill-opacity: 0;
-  transition: fill-opacity 0.5s;
-  will-change: opacity; }
-
-/* line 20, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_header.scss */
-#MenuHeader.finished * {
-  fill-opacity: 1; }
-
-/* line 24, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_header.scss */
+/* line 9, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_header.scss */
 object {
   width: 70%;
-  max-height: 8vh;
+  max-height: 7vh;
   margin-top: 50px;
   margin-bottom: 30px; }
+
+/* line 15, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_header.scss */
+#DistrictHeader, #WorkProgressHeader {
+  max-height: 9vh; }
 
 /* line 1, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_contacts.scss */
 .contacts {
@@ -531,36 +519,20 @@ object {
   /* line 7, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
   .map-block:hover {
     cursor: pointer; }
-    /* line 9, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
-    .map-block:hover .text-container {
-      color: black;
-      transition: 1s; }
-    /* line 13, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
-    .map-block:hover .img-container__gray-mask {
-      box-shadow: inset 0 0 0 0px white; }
-    /* line 16, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
-    .map-block:hover .img-container__black-mask {
-      width: 0%;
-      height: 0%;
-      left: 50%;
-      top: 50%; }
-    /* line 22, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
-    .map-block:hover img {
-      filter: grayscale(0); }
 
-/* line 28, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
+/* line 12, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
 .img-container {
   position: relative;
   width: 100%;
   height: 100%;
   padding: 1px; }
-  /* line 33, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
+  /* line 17, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
   .img-container img {
     width: 100%;
     border-radius: 100%;
     filter: grayscale(1); }
 
-/* line 40, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
+/* line 24, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
 .text-container {
   display: flex;
   font-size: 200%;
@@ -576,11 +548,11 @@ object {
   z-index: 2;
   text-transform: uppercase;
   transition: 1s; }
-  /* line 55, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
+  /* line 39, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
   .text-container span {
     margin: auto; }
 
-/* line 60, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
+/* line 44, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
 .img-container__black-mask {
   display: block;
   width: 60%;
@@ -592,7 +564,7 @@ object {
   border-radius: 100%;
   transition: 0.5s; }
 
-/* line 72, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
+/* line 56, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
 .img-container__gray-mask {
   display: block;
   width: 100%;
@@ -603,6 +575,24 @@ object {
   box-shadow: inset 0 0 0 61px white;
   border-radius: 100%;
   transition: 0.5s; }
+
+@media (min-width: 991px) {
+  /* line 70, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
+  .map-block:hover .text-container {
+    color: black;
+    transition: 1s; }
+  /* line 74, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
+  .map-block:hover .img-container__gray-mask {
+    box-shadow: inset 0 0 0 0px white; }
+  /* line 77, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
+  .map-block:hover .img-container__black-mask {
+    width: 0%;
+    height: 0%;
+    left: 50%;
+    top: 50%; }
+  /* line 83, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
+  .map-block:hover img {
+    filter: grayscale(0); } }
 
 /* line 1, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_districts.scss */
 .district-block__info {
@@ -670,11 +660,15 @@ label[for="Close"] {
   justify-content: space-around;
   height: 100vh;
   background: black;
-  transition: max-height 1s; }
+  will-change: auto;
+  transition: max-height 1s;
+  z-index: 1111; }
 
-/* line 12, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_loader.scss */
+/* line 13, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_loader.scss */
 .loader object {
-  margin: auto; }
+  margin: auto;
+  max-height: 11vh;
+  padding-top: 1vh; }
 
 /* line 1, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_bootstrap-overrides.scss */
 .col-xs-12 .table-collision {

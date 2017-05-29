@@ -2,24 +2,23 @@
     'use strict';
     var menuHeader = new Vivus('MenuHeader', {
             type: 'delayed',
-            duration: 150
-        }, function (obj) {
-            obj.el.classList.add('finished');
+            duration: 80
         }),
-        districtsHeader = new Vivus('DistrictsHeader', {
+
+        districtHeader = new Vivus('DistrictHeader', {
             type: 'delayed',
-            duration: 150
+            duration: 80
         }),
-        workProgressHeader = new Vivus('WorkHeader', {
+        workProgressHeader = new Vivus('WorkProgressHeader', {
             type: 'delayed',
-            duration: 150
+            duration: 80
         }),
         qualityHeader = new Vivus('QualityHeader', {
             type: 'delayed',
-            duration: 150
+            duration: 80
         }),
-        contactsHeader = new Vivus('ContactsHeader', {
+        contactsHeadre = new Vivus('ContactsHeader', {
             type: 'delayed',
-            duration: 150
+            duration: 80
         });
 }());
