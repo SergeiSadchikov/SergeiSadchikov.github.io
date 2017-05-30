@@ -488,14 +488,14 @@ svg {
 
 /* line 9, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_header.scss */
 object {
-  width: 70%;
-  max-height: 7vh;
+  width: 60%;
+  max-height: 5vh;
   margin-top: 50px;
   margin-bottom: 30px; }
 
 /* line 15, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_header.scss */
 #DistrictHeader, #WorkProgressHeader {
-  max-height: 9vh; }
+  max-height: 6vh; }
 
 /* line 1, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_contacts.scss */
 .contacts {
@@ -504,10 +504,29 @@ object {
   /* line 4, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_contacts.scss */
   .contacts li {
     text-align: center;
-    padding-top: 10px; }
+    padding-top: 15px; }
     /* line 7, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_contacts.scss */
     .contacts li:last-child {
       padding-bottom: 150px; }
+
+/* line 13, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_contacts.scss */
+.contacts-top {
+  position: absolute;
+  right: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: bold; }
+  /* line 18, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_contacts.scss */
+  .contacts-top li {
+    text-align: right; }
+    /* line 20, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_contacts.scss */
+    .contacts-top li:last-child {
+      padding-bottom: 0; }
+
+@media (min-width: 991px) {
+  /* line 27, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_contacts.scss */
+  .contacts-top li:hover {
+    color: white;
+    transition: 0.5s; } }
 
 /* line 1, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_map-block.scss */
 .map-block {
@@ -667,7 +686,7 @@ label[for="Close"] {
 /* line 13, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_loader.scss */
 .loader object {
   margin: auto;
-  max-height: 11vh;
+  max-height: 12vh;
   padding-top: 1vh; }
 
 /* line 1, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_bootstrap-overrides.scss */

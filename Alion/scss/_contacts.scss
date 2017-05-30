@@ -1,11 +1,31 @@
-.contacts{
+.contacts {
     list-style: none;
     padding: 0;
-    & li{
+    & li {
         text-align: center;
-        padding-top: 10px;
-        &:last-child{
+        padding-top: 15px;
+        &:last-child {
             padding-bottom: 150px;
         }
+    }
+}
+
+.contacts-top {
+    position: absolute;
+    right: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    & li {
+        text-align: right;
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+}
+
+@media(min-width: 991px) {
+    .contacts-top li:hover{
+        color: rgba(255, 255, 255, 1);
+        transition: 0.5s;
     }
 }
