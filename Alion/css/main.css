@@ -512,18 +512,22 @@ object {
 /* line 13, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_contacts.scss */
 .contacts-top {
   position: absolute;
+  font-size: 10px;
   right: 10px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: bold; }
-  /* line 18, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_contacts.scss */
+  /* line 19, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_contacts.scss */
   .contacts-top li {
     text-align: right; }
-    /* line 20, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_contacts.scss */
+    /* line 21, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_contacts.scss */
     .contacts-top li:last-child {
       padding-bottom: 0; }
 
 @media (min-width: 991px) {
-  /* line 27, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_contacts.scss */
+  /* line 28, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_contacts.scss */
+  .contacts-top {
+    font-size: 14px; }
+  /* line 31, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_contacts.scss */
   .contacts-top li:hover {
     color: white;
     transition: 0.5s; } }
@@ -673,6 +677,7 @@ label[for="Close"] {
 /* line 1, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_loader.scss */
 .loader {
   display: flex;
+  position: fixed;
   width: 100vw;
   max-height: 100vh;
   flex-direction: column;
@@ -683,7 +688,7 @@ label[for="Close"] {
   transition: max-height 1s;
   z-index: 1111; }
 
-/* line 13, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_loader.scss */
+/* line 14, ../../Users/Сергей Садчиков/Desktop/Alion/scss/_loader.scss */
 .loader object {
   margin: auto;
   max-height: 12vh;
