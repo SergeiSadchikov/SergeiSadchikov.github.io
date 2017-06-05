@@ -16,6 +16,6 @@
             }
         });
         $('.district-block__info[data-value=' + $(this).attr('value') + ']').toggleClass('hidden-block');
-        //$('a[name="districts-start"]').offset().top;
+        $('a[name="districts-start"]').offset().top;
     });
 }());
