@@ -1,5 +1,16 @@
 .menu__item{
     display: block;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
+}
+.menu__span{
+    display: block;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: all 1s;
+    margin-top: -10px;
+}
+.menu__span-visible{
+    margin-top: 0;
+    opacity: 1;
 }

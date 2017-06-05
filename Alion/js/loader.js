@@ -1,15 +1,17 @@
-/*(function () {
+(function () {
     'use strict';
     $('.loader').css('position', 'fixed');
     var topHeader = new Vivus('Logo', {
         type: "sync",
-        duration: 100
+        duration: 150,
+        forceRender: true
     }, function () {
-
-        window.onload = $('.loader').css('max-height', '10vh');
+        topHeader.destroy();
+        window.onload = (function () {
+            $('.loader').css({
+                "max-height": "10vh",
+                "position": "relative"
+            });
+        }());
     });
-}());*/
-
-window.load(setInterval(function () {
-    $('.loader').css('max-height', '10vh');
-}, 3000));
+}());

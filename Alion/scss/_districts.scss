@@ -1,5 +1,5 @@
 .district-block__info {
-    max-height: 800px;
+    max-height: 1000px;
     transition: max-height 1s;
     overflow: hidden;
 }
@@ -50,8 +50,15 @@ label[for="Close"] {
     }
 }
 
-
-.district-map-container{
+.district-map-container {
     margin: 10px auto;
     height: 400px;
+}
+
+@media(min-width:991px) {
+    .district-block__info {
+    max-height: 800px;
+    transition: max-height 1s;
+    overflow: hidden;
+}
 }
