@@ -1,0 +1,19 @@
+.progress-step {
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+    & span {
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 20px;
+        display: block;
+    }
+    & img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.progress-visible {
+    opacity: 1 !important;
+}
