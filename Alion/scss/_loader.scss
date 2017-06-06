@@ -11,8 +11,10 @@
     transition: max-height 1s;
     z-index: 1111;
 }
-.loader object{
+
+.loader img {
     margin: auto;
-    max-height: 12vh;
+    max-height: 14vh;
     padding-top: 1vh;
+    padding-bottom: 2vh;
 }

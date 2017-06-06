@@ -1,17 +1,13 @@
 (function () {
     'use strict';
-    $('.loader').css('position', 'fixed');
-    var topHeader = new Vivus('Logo', {
-        type: "sync",
-        duration: 150,
-        forceRender: true
-    }, function () {
-        topHeader.destroy();
-        window.onload = (function () {
+
+    window.onload = function () {
+        setTimeout(function () {
             $('.loader').css({
-                "max-height": "10vh",
+                "max-height": "12vh",
                 "position": "relative"
             });
-        }());
-    });
+        }, 3000);
+
+    };
 }());
