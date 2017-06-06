@@ -1,37 +1,7 @@
 (function () {
     'use strict';
-    var menuHeader = new Vivus('MenuHeader', {
-            type: 'sync',
-            duration: 80
-        }, function () {
-            menuHeader.destroy();
-        }),
 
-        districtHeader = new Vivus('DistrictHeader', {
-            type: 'sync',
-            duration: 80
-        }, function () {
-            districtHeader.destroy();
-        }),
-        workProgressHeader = new Vivus('WorkProgressHeader', {
-            type: 'sync',
-            duration: 80
-        }, function () {
-            workProgressHeader.destroy();
-        }),
-        qualityHeader = new Vivus('QualityHeader', {
-            type: 'sync',
-            duration: 80
-        }, function () {
-            qualityHeader.destroy();
-        }),
-        contactsHeader = new Vivus('ContactsHeader', {
-            type: 'sync',
-            duration: 80
-        }, function () {
-            contactsHeader.destroy();
-        }),
-        menuItem_4 = new Vivus('Menu4', {
+    var menuItem_4 = new Vivus('Menu4', {
             type: 'sync',
             duration: 50,
             start: 'manual',

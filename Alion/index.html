@@ -41,28 +41,24 @@
 
             <section class="col-xs-12 menu-sections">
                 <nav class="row menu">
-                    <div class="col-xs-12">
-                        <object data="source/menu_header.svg" type="image/svg+xml" id="MenuHeader"></object>
+                    <div class="col-xs-12 menu-header-wrapper">
+                        <img src="" alt="" class="gif_header" id='MenuHeader'>
                     </div>
                     <a href="#districts" class="menu__item col-xs-12 col-md-3">
                         <div id="Menu1"></div>
-                        <!--<object data="source/icons/basic_map.svg" type="image/svg+xml"></object>-->
                         <span class="menu__span">Районы</span>
                     </a>
                     <a href="#quality" class="menu__item col-xs-12 col-md-3">
                         <div id="Menu2">
                         </div>
-                        <!-- <object data="source/icons/ecommerce_diamond.svg" type="image/svg+xml"></object>-->
                         <span class="menu__span">Качество</span>
                     </a>
                     <a href="#contacts" class="menu__item col-xs-12 col-md-3">
                         <div id="Menu3"></div>
-                        <!--<object data="source/icons/basic_mail_multiple.svg" type="image/svg+xml"></object>-->
                         <span class="menu__span">Контакты</span>
                     </a>
                     <a href="#work-progress" class="menu__item col-xs-12 col-md-3">
                         <div id="Menu4"></div>
-                        <!--<object data="source/icons/basic_share.svg" type="image/svg+xml"></object>-->
                         <span class="menu__span">Ход работы</span>
                     </a>
                 </nav>
@@ -71,7 +67,7 @@
                 <div class="row districts-block">
                     <a href="" name="districts"></a>
                     <div class="col-xs-12">
-                        <object data="source/districts_header.svg" type="image/svg+xml" id="DistrictHeader"></object>
+                        <img src="" alt="" class="gif_header" id="DistrictHeader">
                     </div>
                     <a href="" name='districts-start'></a>
                     <div class="col-xs-12 close-button close-button-hidden">
@@ -303,7 +299,7 @@
                 <a href="" name="work-progress"></a>
                 <div class="row">
                     <div class="col-xs-12">
-                        <object data="source/work-progress_header.svg" type="image/svg+xml" id="WorkProgressHeader"></object>
+                        <img src="" alt="" class="gif_header" id="WorkProgressHeader">
                     </div>
                     <div class="progress-step col-xs-12 col-md-4"><img src="source/icons/work-progress/pin.svg" alt="Выбор района"><span class="progress-step__desc">Выбор района</span></div>
                     <div class="progress-step col-xs-12 col-md-4 opacity-delay-1"><img src="source/icons/work-progress/layers.svg" alt="Выбор формата макета"><span class="progress-step__desc">Выбор формата макета</span></div>
@@ -319,7 +315,7 @@
             <section class="col-xs-12">
                 <a href="" name="quality"></a>
                 <div class="col-xs-12">
-                    <object data="source/quality_header.svg" type="image/svg+xml" id="QualityHeader"></object>
+                    <img src="" alt="" class="gif_header" id="QualityHeader">
                 </div>
                 <div class="row quality-wrapper">
                     <div class="col-xs-12 col-md-4 quality-item"><img src="source/icons/quality/printer.svg" alt="Высокое качество печати"><span class="quality-item__desc">Высокое качество печати</span></div>
@@ -330,7 +326,7 @@
             <section class="col-xs-12">
                 <a href="" name="contacts"></a>
                 <div class="col-xs-12">
-                    <object data="source/contacts_header.svg" type="image/svg+xml" id="ContactsHeader"></object>
+                    <img src="" alt="" class="gif_header" id="ContactsHeader">
                 </div>
                 <ul class="contacts">
                     <li>pr.sarmarketing@gmail.com</li>
@@ -344,10 +340,11 @@
     <script src="https://cdn.jsdelivr.net/vivus/0.4.0/vivus.min.js"></script>
     <script src="js/viewport.js"></script>
     <script src="js/districts.js"></script>
-    <script src="js/headers.js" async></script>
-    <script src="js/loader.js"></script>
+    <script src="js/header_animation.js"></script>
+    <script src="js/menu_animation.js" async></script>
     <script src="js/scroll.js"></script>
     <script src="js/animation-opacity.js"></script>
+    <script src="js/loader.js"></script>
 </body>
 
 </html>

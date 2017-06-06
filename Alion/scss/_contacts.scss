@@ -25,11 +25,12 @@
 }
 
 @media(min-width: 991px) {
-    .contacts-top{
+    .contacts-top {
         font-size: 14px;
     }
-    .contacts-top li:hover{
+    .contacts-top li:hover {
         color: rgba(255, 255, 255, 1);
+        -webkit-transition: 0.5s;
         transition: 0.5s;
     }
 }

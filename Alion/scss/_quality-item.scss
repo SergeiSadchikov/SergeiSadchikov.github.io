@@ -1,11 +1,11 @@
-.quality-wrapper{
-    & div{
+.quality-wrapper {
+    & div {
         padding: 20px;
-        & img{
+        & img {
             height: 200px;
             width: 200px;
         }
-        & span{
+        & span {
             font-weight: bold;
             font-size: 18px;
             margin-top: 20px;
@@ -13,7 +13,9 @@
         }
     }
 }
-.quality-item{
-      opacity: 0;
-      transition: opacity 2s;
+
+.quality-item {
+    opacity: 0;
+    -webkit-transition: opacity 2s;
+    transition: opacity 2s;
 }

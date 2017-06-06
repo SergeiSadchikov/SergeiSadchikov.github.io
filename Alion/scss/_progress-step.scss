@@ -1,6 +1,7 @@
 .progress-step {
     padding: 20px;
     opacity: 0;
+    -webkit-transition: opacity 1s;
     transition: opacity 1s;
     & span {
         font-weight: bold;

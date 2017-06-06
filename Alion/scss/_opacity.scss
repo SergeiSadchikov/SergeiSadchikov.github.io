@@ -1,16 +1,20 @@
 .opacity-delay-1 {
+    -webkit-transition-delay:0s;
     transition-delay:0s;
 }
 
 .opacity-delay-2 {
+    -webkit-transition-delay:0s;
     transition-delay:0s;
 }
 
 @media(min-width: 991px) {
     .opacity-delay-1 {
+        -webkit-transition-delay: 1.5s;
         transition-delay: 1.5s;
     }
     .opacity-delay-2 {
+        -webkit-transition-delay: 3s;
         transition-delay: 3s;
     }
 }

@@ -7,7 +7,7 @@
                 "max-height": "12vh",
                 "position": "relative"
             });
-        }, 3000);
+        }, 1000);
 
     };
 }());
