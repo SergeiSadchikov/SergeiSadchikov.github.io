@@ -1,6 +1,6 @@
 (function () {
     'use strict';
-
+    $('.loader-logo').addClass('loader-visible');
     window.onload = function () {
         setTimeout(function () {
             $('.loader').css({

@@ -1,0 +1,19 @@
+.scroll-advice{
+    display: inline-block;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    font-size: 35px;
+    line-height: 40px;
+    border: solid 2px white;
+    border-radius: 100%;
+    left:48%;
+    bottom: 5%;
+    z-index: 1000;
+    & i{
+        padding-left: 2px;
+        margin: auto;
+        color: white;
+        z-index: 1000;
+    }
+}

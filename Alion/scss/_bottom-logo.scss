@@ -1,0 +1,14 @@
+.bottom-logo-wrapper{
+    display: inline-block;
+    height: 150px;
+    float: right;
+    width: 150px;
+    margin-top: -100px;
+    & span{
+        display: block;
+        color: white;
+    }
+    & img{
+       height: 100px; 
+    }
+}

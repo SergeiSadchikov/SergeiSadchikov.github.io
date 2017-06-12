@@ -19,9 +19,15 @@
     z-index: 1111;
 }
 
-.loader img {
+.loader-logo {
     margin: auto;
-    max-height: 14vh;
+    max-height: 12vh;
     padding-top: 1vh;
     padding-bottom: 2vh;
+    max-width: 20vw;
+    opacity: 0;
+    transition: 3s;
+}
+.loader-visible{
+    opacity: 1;
 }
