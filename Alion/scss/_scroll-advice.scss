@@ -5,15 +5,15 @@
     width: 50px;
     font-size: 35px;
     line-height: 40px;
-    border: solid 2px white;
+    border: solid 2px rgba(255,255,255, 0.5);
     border-radius: 100%;
-    left:48%;
+    right: 5%;
     bottom: 5%;
     z-index: 1000;
     & i{
         padding-left: 2px;
         margin: auto;
-        color: white;
+        color: rgba(255,255,255,0.5);
         z-index: 1000;
     }
 }
