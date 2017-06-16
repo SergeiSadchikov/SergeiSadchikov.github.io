@@ -6,6 +6,6 @@
             $('.loader').addClass('loaded');
             $('.page-wrapper').css('height', 'auto');
             $('.scroll-advice').css('display', 'inline-block');
-        }, 1000);
+        }, 1900);
     };
 }());
