@@ -3,11 +3,9 @@
     $('.loader-logo').addClass('loader-visible');
     window.onload = function () {
         setTimeout(function () {
-            $('.loader').css({
-                "max-height": "12vh",
-                "position": "relative"
-            });
-        }, 1000);
-
+            $('.loader').addClass('loaded');
+            $('.page-wrapper').css('height', 'auto');
+            $('.scroll-advice').css('display', 'inline-block');
+        }, 2000);
     };
 }());
