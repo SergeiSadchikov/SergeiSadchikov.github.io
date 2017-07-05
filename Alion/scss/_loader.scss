@@ -3,7 +3,6 @@
     display: -ms-flexbox;
     display: flex;
     position: static;
-    width: 100vw;
     max-height: 100vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -23,6 +22,7 @@
     transition-timing-function: cubic-bezier(0.77,0,0.175,1);
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
+    width: 98.9vw;
 }
 
 .loader-logo {

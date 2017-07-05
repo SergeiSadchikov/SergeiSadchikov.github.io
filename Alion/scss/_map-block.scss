@@ -41,7 +41,7 @@
     height: 100%;
     line-height: 100%;
     margin-top: -100%;
-    color: white;
+    color: black;
     z-index: 2;
     text-transform: uppercase;
     -webkit-transition: 1s;
@@ -52,18 +52,6 @@
     }
 }
 
-.img-container__black-mask {
-    display: block;
-    width: 69.5%;
-    height: 69.6%;
-    position: absolute;
-    left: 15.2%;
-    top: 15.2%;
-    background-image: url(../source/bg-mask.png);
-    border-radius: 100%;
-    transition: 0.5s;
-}
-
 @media(min-width: 991px) {
     .map-block:hover {
         & .text-container {
@@ -71,21 +59,13 @@
             -webkit-transition: 1s;
             transition: 1s;
         }
-        & .img-container__black-mask {
-            width: 0%;
-            height: 0%;
-            left: 50%;
-            top: 50%;
-            -webkit-transition: 0.5s;
-            transition: 0.5s;
-        }
         & img {
             -webkit-filter: grayscale(0);
             filter: grayscale(0);
         }
         .map-bg {
-            height: 100%;
-            width: 100%;
+            height: 90%;
+            width: 90%;
             transition: 0.5s;
         }
     }
