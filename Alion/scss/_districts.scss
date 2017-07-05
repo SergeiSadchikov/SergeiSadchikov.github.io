@@ -39,14 +39,14 @@ input[type="radio"] {
 label[for="Close"] {
     height: 50px;
     width: 50px;
-    color: black;
+    color: white;
     opacity: 1;
     & i {
         height: 100%;
         width: 100%;
         font-size: 30px;
         border-radius: 100%;
-        border: solid 1px black;
+        border: solid 1px white;
         padding: 9px;
         &:hover {
             font-size: 20px;

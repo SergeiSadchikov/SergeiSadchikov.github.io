@@ -34,6 +34,7 @@
     opacity: 0;
     -webkit-transition: 3s;
     transition: 3s;
+    z-index: 2;
 }
 .loader-visible{
     opacity: 1;

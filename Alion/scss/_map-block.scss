@@ -1,6 +1,7 @@
 .map-block {
     position: relative;
     width: 300px;
+    height: 300px;
     opacity: 1;
     -webkit-transition: 1s;
     transition: 1s;
@@ -11,15 +12,19 @@
 }
 
 .img-container {
+    display: flex;
     position: relative;
     width: 100%;
     height: 100%;
     padding: 1px;
-    & img {
-        width: 100%;
-        border-radius: 100%;
+    .map-bg {
+        margin: auto;
+        height: 70%;
+        width: 70%;
+         border-radius: 100%;
         -webkit-filter: grayscale(1);
         filter: grayscale(1);
+        transition: 0.5s;
     }
 }
 
@@ -36,7 +41,7 @@
     height: 100%;
     line-height: 100%;
     margin-top: -100%;
-    color: lightgray;
+    color: white;
     z-index: 2;
     text-transform: uppercase;
     -webkit-transition: 1s;
@@ -49,26 +54,14 @@
 
 .img-container__black-mask {
     display: block;
-    width: 70%;
-    height: 70%;
+    width: 69.5%;
+    height: 69.6%;
     position: absolute;
-    left: 15%;
-    top: 15.1%;
+    left: 15.2%;
+    top: 15.2%;
     background-image: url(../source/bg-mask.png);
     border-radius: 100%;
     transition: 0.5s;
-}
-
-.img-container__gray-mask {
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    -webkit-box-shadow: inset 0 0 0 46px white;
-    box-shadow: inset 0 0 0 46px white;
-    border-radius: 100%;
 }
 
 @media(min-width: 991px) {
@@ -77,10 +70,6 @@
             color: black;
             -webkit-transition: 1s;
             transition: 1s;
-        }
-        & .img-container__gray-mask {
-            -webkit-box-shadow: inset 0 0 0 0px white;
-            box-shadow: inset 0 0 0 0px white;
         }
         & .img-container__black-mask {
             width: 0%;
@@ -94,18 +83,10 @@
             -webkit-filter: grayscale(0);
             filter: grayscale(0);
         }
-    }
-    .img-container__gray-mask {
-        display: block;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        -webkit-box-shadow: inset 0 0 0 46px white;
-        box-shadow: inset 0 0 0 46px white;
-        border-radius: 100%;
-        -webkit-transition: 0.5s;
-        transition: 0.5s;
+        .map-bg {
+            height: 100%;
+            width: 100%;
+            transition: 0.5s;
+        }
     }
 }

@@ -16,7 +16,7 @@
  * 3. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
  *  `em` units.
  */
-/* line 23, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 23, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -28,7 +28,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 36, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 36, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 body {
   margin: 0; }
 
@@ -40,7 +40,7 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 50, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 50, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 article,
 aside,
 details,
@@ -60,7 +60,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 71, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 71, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 audio,
 canvas,
 progress,
@@ -74,7 +74,7 @@ video {
  * Prevents modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 88, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 88, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -83,7 +83,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
  */
-/* line 98, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 98, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 [hidden],
 template {
   display: none; }
@@ -93,7 +93,7 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 110, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 110, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 a {
   background-color: transparent; }
 
@@ -101,7 +101,7 @@ a {
  * Improve readability of focused elements when they are also in an
  * active/hover state.
  */
-/* line 120, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 120, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 a:active, a:hover {
   outline: 0; }
 
@@ -110,14 +110,14 @@ a:active, a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 132, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 132, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 140, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 140, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 b,
 strong {
   font-weight: bold; }
@@ -125,7 +125,7 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 155, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 155, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 dfn {
   font-style: italic; }
 
@@ -133,7 +133,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 164, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 164, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -141,7 +141,7 @@ h1 {
 /**
  * Addresses styling not present in IE 8/9.
  */
-/* line 200, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 200, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 mark {
   background: #ff0;
   color: #000; }
@@ -149,14 +149,14 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 239, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 239, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 247, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 247, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 sub,
 sup {
   font-size: 75%;
@@ -164,11 +164,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 255, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 255, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 sup {
   top: -0.5em; }
 
-/* line 259, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 259, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 sub {
   bottom: -0.25em; }
 
@@ -178,14 +178,14 @@ sub {
  * 1. Remove border when inside `a` element in IE 8/9/10.
  * 2. Improves image quality when scaled in IE 7.
  */
-/* line 314, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 314, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 img {
   border: 0; }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 325, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 325, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -194,14 +194,14 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 336, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 336, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 figure {
   margin: 1em 40px; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 344, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 344, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 hr {
   box-sizing: content-box;
   height: 0; }
@@ -209,7 +209,7 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 353, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 353, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 pre {
   overflow: auto; }
 
@@ -217,7 +217,7 @@ pre {
  * Address odd `em`-unit font size rendering in all browsers.
  * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
-/* line 362, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 362, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 code,
 kbd,
 pre,
@@ -238,7 +238,7 @@ samp {
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  * 4. Improves appearance and consistency in all browsers.
  */
-/* line 389, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 389, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 button,
 input,
 optgroup,
@@ -254,7 +254,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 407, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 407, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 button {
   overflow: visible; }
 
@@ -264,7 +264,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 418, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 418, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 button,
 select {
   text-transform: none; }
@@ -278,7 +278,7 @@ select {
  * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
  *  Known issue: inner spacing remains in IE 6.
  */
-/* line 433, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 433, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -291,7 +291,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 448, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 448, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 button[disabled],
 html input[disabled] {
   cursor: default; }
@@ -299,7 +299,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 457, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 457, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -309,7 +309,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 468, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 468, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 input {
   line-height: normal; }
 
@@ -318,7 +318,7 @@ input {
  * 2. Remove excess padding in IE 8/9/10.
  *  Known issue: excess padding remains in IE 6.
  */
-/* line 478, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 478, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -331,7 +331,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 494, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 494, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -340,7 +340,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
  */
-/* line 504, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 504, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -352,7 +352,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 515, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 515, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -360,7 +360,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 524, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 524, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -372,7 +372,7 @@ fieldset {
  * 3. Corrects text not wrapping in Firefox 3.
  * 4. Corrects alignment displayed oddly in IE 6/7.
  */
-/* line 537, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 537, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 legend {
   border: 0;
   /* 1 */
@@ -382,7 +382,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 550, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 550, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 textarea {
   overflow: auto; }
 
@@ -390,7 +390,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 559, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 559, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 optgroup {
   font-weight: bold; }
 
@@ -399,60 +399,69 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 570, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 570, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 575, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_normalizer.scss */
+/* line 575, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_normalizer.scss */
 td,
 th {
   padding: 0; }
 
-/* line 1, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_common.scss */
+/* line 1, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_common.scss */
 * {
   text-align: center;
   vertical-align: middle; }
 
-/* line 6, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_common.scss */
+/* line 6, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_common.scss */
 a,
 a:hover {
   text-decoration: none;
   color: inherit; }
 
-/* line 12, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_common.scss */
+/* line 12, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_common.scss */
 .logo {
   width: 99%;
   position: relative;
   z-index: 3; }
 
-/* line 18, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_common.scss */
+/* line 18, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_common.scss */
+.hidden-ld {
+  visibility: hidden; }
+
+/* line 22, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_common.scss */
 .black-bg {
   background: black;
   position: relative;
   padding-bottom: 50px; }
 
-/* line 24, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_common.scss */
+/* line 28, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_common.scss */
 .bottom-black-bg {
   margin-top: -150px; }
 
-/* line 28, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_common.scss */
+/* line 32, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_common.scss */
 .white-bg {
-  background: white;
-  padding-bottom: 100px; }
-  /* line 31, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_common.scss */
+  background: url(../source/background.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 100px;
+  color: white; }
+  /* line 39, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_common.scss */
   .white-bg:before {
     content: "";
     display: block;
     width: 120%;
     margin-top: -50px;
-    background: white;
-    padding-top: 200px;
+    margin-left: -10%;
+    background: black;
+    padding-top: 150px;
     -webkit-transform: rotate(-3deg);
     transform: rotate(-3deg);
     position: relative;
     z-index: 2; }
-  /* line 43, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_common.scss */
+  /* line 52, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_common.scss */
   .white-bg:after {
     content: "";
     display: block;
@@ -461,63 +470,68 @@ a:hover {
     width: 120%;
     transform: rotate(-3deg);
     background: black;
-    margin-top: -00px;
     position: relative;
     z-index: 1; }
 
-@media (min-width: 991px) {
-  /* line 59, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_common.scss */
-  .white-bg:before {
-    margin-top: -80px; } }
-
-/* line 65, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_common.scss */
+/* line 65, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_common.scss */
 .menu-section {
-  margin-top: -150px;
+  margin-top: 50px;
   position: relative;
   z-index: 2; }
 
-/* line 71, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_common.scss */
+/* line 71, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_common.scss */
 sections {
   margin-top: 10px; }
 
-/* line 75, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_common.scss */
+/* line 75, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_common.scss */
 .page-wrapper {
   max-width: 100vw;
   overflow-x: hidden;
   overflow-y: hidden;
   height: 100vh; }
 
-/* line 1, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_font.scss */
+/* line 82, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_common.scss */
+.loadable {
+  position: absolute; }
+
+@media (min-width: 991px) {
+  /* line 88, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_common.scss */
+  .white-bg:before {
+    margin-top: -80px; } }
+
+/* line 1, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_font.scss */
 body {
   font-family: 'Roboto', sans-serif; }
 
-/* line 1, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_table.scss */
+/* line 1, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_table.scss */
 th, td {
   vertical-align: middle !important;
   text-align: center !important; }
 
-/* line 1, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_additional-info.scss */
+/* line 1, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_additional-info.scss */
 .additional-info {
   max-width: 500px;
   min-width: 340px;
   margin: 0 auto; }
-  /* line 5, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_additional-info.scss */
+  /* line 5, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_additional-info.scss */
   .additional-info ul {
     margin: auto;
     width: 50%;
     min-width: 300px; }
-    /* line 9, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_additional-info.scss */
+    /* line 9, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_additional-info.scss */
     .additional-info ul li {
       text-align: left;
       padding-left: 15px; }
 
-/* line 1, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_menu.scss */
+/* line 1, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_menu.scss */
 .menu__item {
   display: block;
   font-weight: bold;
-  font-size: 18px; }
+  font-size: 18px;
+  min-height: 159px;
+  margin-bottom: 50px; }
 
-/* line 6, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_menu.scss */
+/* line 8, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_menu.scss */
 .menu__span {
   display: block;
   text-transform: uppercase;
@@ -526,12 +540,12 @@ th, td {
   transition: all 1s;
   margin-top: -10px; }
 
-/* line 14, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_menu.scss */
+/* line 16, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_menu.scss */
 .menu__span-visible {
   margin-top: 0;
   opacity: 1; }
 
-/* line 1, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_header.scss */
+/* line 1, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_header.scss */
 svg {
   display: block;
   margin: auto;
@@ -540,47 +554,47 @@ svg {
   margin-top: 50px;
   margin-bottom: 30px; }
 
-/* line 9, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_header.scss */
+/* line 9, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_header.scss */
 object {
   width: 60%;
   max-height: 5vh;
   margin-top: 50px;
   margin-bottom: 30px; }
 
-/* line 15, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_header.scss */
+/* line 15, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_header.scss */
 .gif_header {
   height: 70px;
   margin-top: 20px; }
 
-/* line 19, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_header.scss */
+/* line 19, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_header.scss */
 #ContactsHeader {
   height: 60px; }
 
-/* line 22, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_header.scss */
+/* line 22, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_header.scss */
 #QualityHeader {
   height: 60px; }
 
-/* line 1, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_contacts.scss */
+/* line 1, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_contacts.scss */
 .contacts {
   position: relative;
   z-index: 100;
   list-style: none;
   padding: 0;
   color: white; }
-  /* line 7, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_contacts.scss */
+  /* line 7, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_contacts.scss */
   .contacts li {
     text-align: center;
     padding-top: 15px; }
-    /* line 10, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_contacts.scss */
+    /* line 10, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_contacts.scss */
     .contacts li:last-child {
       padding-bottom: 20px; }
 
-/* line 15, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_contacts.scss */
+/* line 15, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_contacts.scss */
 #ContactsHeader {
   position: relative;
   z-index: 1; }
 
-/* line 19, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_contacts.scss */
+/* line 19, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_contacts.scss */
 .contacts-top {
   position: absolute;
   z-index: 5;
@@ -588,53 +602,58 @@ object {
   right: 10px;
   color: rgba(255, 255, 255, 0.35);
   font-weight: bold; }
-  /* line 26, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_contacts.scss */
+  /* line 26, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_contacts.scss */
   .contacts-top li {
     text-align: right; }
-    /* line 28, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_contacts.scss */
+    /* line 28, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_contacts.scss */
     .contacts-top li:last-child {
       padding-bottom: 0; }
 
 @media (min-width: 991px) {
-  /* line 35, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_contacts.scss */
+  /* line 35, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_contacts.scss */
   .contacts {
     font-size: 25px; }
-  /* line 38, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_contacts.scss */
+  /* line 38, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_contacts.scss */
   .contacts-top {
     right: -10px;
     top: -26px; }
-  /* line 42, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_contacts.scss */
+  /* line 42, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_contacts.scss */
   .contacts-top li:hover {
     color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s; } }
 
-/* line 1, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_map-block.scss */
+/* line 1, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_map-block.scss */
 .map-block {
   position: relative;
   width: 300px;
+  height: 300px;
   opacity: 1;
   -webkit-transition: 1s;
   transition: 1s;
   min-width: 300px; }
-  /* line 8, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_map-block.scss */
+  /* line 9, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_map-block.scss */
   .map-block:hover {
     cursor: pointer; }
 
-/* line 13, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_map-block.scss */
+/* line 14, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_map-block.scss */
 .img-container {
+  display: flex;
   position: relative;
   width: 100%;
   height: 100%;
   padding: 1px; }
-  /* line 18, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_map-block.scss */
-  .img-container img {
-    width: 100%;
+  /* line 20, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_map-block.scss */
+  .img-container .map-bg {
+    margin: auto;
+    height: 70%;
+    width: 70%;
     border-radius: 100%;
     -webkit-filter: grayscale(1);
-    filter: grayscale(1); }
+    filter: grayscale(1);
+    transition: 0.5s; }
 
-/* line 26, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_map-block.scss */
+/* line 31, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_map-block.scss */
 .text-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -648,50 +667,34 @@ object {
   height: 100%;
   line-height: 100%;
   margin-top: -100%;
-  color: lightgray;
+  color: white;
   z-index: 2;
   text-transform: uppercase;
   -webkit-transition: 1s;
   transition: 1s; }
-  /* line 44, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_map-block.scss */
+  /* line 49, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_map-block.scss */
   .text-container span {
     margin: auto; }
 
-/* line 50, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_map-block.scss */
+/* line 55, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_map-block.scss */
 .img-container__black-mask {
   display: block;
-  width: 70%;
-  height: 70%;
+  width: 69.5%;
+  height: 69.6%;
   position: absolute;
-  left: 15%;
-  top: 15.1%;
+  left: 15.2%;
+  top: 15.2%;
   background-image: url(../source/bg-mask.png);
   border-radius: 100%;
   transition: 0.5s; }
 
-/* line 62, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_map-block.scss */
-.img-container__gray-mask {
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  -webkit-box-shadow: inset 0 0 0 46px white;
-  box-shadow: inset 0 0 0 46px white;
-  border-radius: 100%; }
-
 @media (min-width: 991px) {
-  /* line 76, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_map-block.scss */
+  /* line 69, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_map-block.scss */
   .map-block:hover .text-container {
     color: black;
     -webkit-transition: 1s;
     transition: 1s; }
-  /* line 81, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_map-block.scss */
-  .map-block:hover .img-container__gray-mask {
-    -webkit-box-shadow: inset 0 0 0 0px white;
-    box-shadow: inset 0 0 0 0px white; }
-  /* line 85, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_map-block.scss */
+  /* line 74, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_map-block.scss */
   .map-block:hover .img-container__black-mask {
     width: 0%;
     height: 0%;
@@ -699,95 +702,87 @@ object {
     top: 50%;
     -webkit-transition: 0.5s;
     transition: 0.5s; }
-  /* line 93, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_map-block.scss */
+  /* line 82, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_map-block.scss */
   .map-block:hover img {
     -webkit-filter: grayscale(0);
     filter: grayscale(0); }
-  /* line 98, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_map-block.scss */
-  .img-container__gray-mask {
-    display: block;
-    width: 100%;
+  /* line 86, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_map-block.scss */
+  .map-block:hover .map-bg {
     height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    -webkit-box-shadow: inset 0 0 0 46px white;
-    box-shadow: inset 0 0 0 46px white;
-    border-radius: 100%;
-    -webkit-transition: 0.5s;
+    width: 100%;
     transition: 0.5s; } }
 
-/* line 1, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_districts.scss */
+/* line 1, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_districts.scss */
 .district-block__info {
   max-height: 1000px;
   -webkit-transition: max-height 1s;
   transition: max-height 1s;
   overflow: hidden; }
 
-/* line 8, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_districts.scss */
+/* line 8, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_districts.scss */
 .districts-block__item {
   max-height: 500px;
   overflow: hidden;
   -webkit-transition: all 1s;
   transition: all 1s; }
 
-/* line 15, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_districts.scss */
+/* line 15, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_districts.scss */
 input[type="radio"] {
   display: none; }
 
-/* line 19, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_districts.scss */
+/* line 19, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_districts.scss */
 .close-button-hidden {
   opacity: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s; }
 
-/* line 25, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_districts.scss */
+/* line 25, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_districts.scss */
 .hidden-block {
   max-height: 0 !important;
   overflow: hidden;
   -webkit-transition: 1s;
   transition: 1s; }
 
-/* line 32, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_districts.scss */
+/* line 32, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_districts.scss */
 .opacity-trans {
   -webkit-transition: max-height 1s;
   transition: max-height 1s;
   max-height: 0px;
   overflow: hidden; }
 
-/* line 39, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_districts.scss */
+/* line 39, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_districts.scss */
 label[for="Close"] {
   height: 50px;
   width: 50px;
-  color: black;
+  color: white;
   opacity: 1; }
-  /* line 44, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_districts.scss */
+  /* line 44, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_districts.scss */
   label[for="Close"] i {
     height: 100%;
     width: 100%;
     font-size: 30px;
     border-radius: 100%;
-    border: solid 1px black;
+    border: solid 1px white;
     padding: 9px; }
-    /* line 51, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_districts.scss */
+    /* line 51, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_districts.scss */
     label[for="Close"] i:hover {
       font-size: 20px;
       padding: 14px; }
 
-/* line 58, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_districts.scss */
+/* line 58, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_districts.scss */
 .district-map-container {
   margin: 10px auto;
   height: 400px; }
 
 @media (min-width: 991px) {
-  /* line 64, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_districts.scss */
+  /* line 64, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_districts.scss */
   .district-block__info {
     max-height: 800px;
     -webkit-transition: max-height 1s;
     transition: max-height 1s;
     overflow: hidden; } }
 
-/* line 1, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_loader.scss */
+/* line 1, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_loader.scss */
 .loader {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -814,7 +809,7 @@ label[for="Close"] {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s; }
 
-/* line 28, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_loader.scss */
+/* line 28, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_loader.scss */
 .loader-logo {
   margin: auto;
   max-height: 12vh;
@@ -823,94 +818,95 @@ label[for="Close"] {
   max-width: 20vw;
   opacity: 0;
   -webkit-transition: 3s;
-  transition: 3s; }
+  transition: 3s;
+  z-index: 2; }
 
-/* line 38, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_loader.scss */
+/* line 39, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_loader.scss */
 .loader-visible {
   opacity: 1; }
 
-/* line 41, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_loader.scss */
+/* line 42, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_loader.scss */
 .loaded {
   max-height: 12vh; }
 
-/* line 1, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_progress-step.scss */
+/* line 1, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_progress-step.scss */
 .progress-step {
   padding: 20px;
   opacity: 0;
   -webkit-transition: opacity 1s;
   transition: opacity 1s; }
-  /* line 6, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_progress-step.scss */
+  /* line 6, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_progress-step.scss */
   .progress-step span {
     font-weight: bold;
     font-size: 18px;
     margin-top: 20px;
     display: block; }
-  /* line 12, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_progress-step.scss */
+  /* line 12, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_progress-step.scss */
   .progress-step img {
     height: 80px;
     width: 80px; }
 
-/* line 18, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_progress-step.scss */
+/* line 18, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_progress-step.scss */
 .progress-visible {
   opacity: 1 !important; }
 
-/* line 2, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_quality-item.scss */
+/* line 2, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_quality-item.scss */
 .quality-wrapper div {
   padding: 20px; }
-  /* line 4, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_quality-item.scss */
+  /* line 4, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_quality-item.scss */
   .quality-wrapper div img {
     height: 80px;
     width: 80px; }
-  /* line 8, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_quality-item.scss */
+  /* line 8, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_quality-item.scss */
   .quality-wrapper div span {
     font-weight: bold;
     font-size: 18px;
     margin-top: 20px;
     display: block; }
 
-/* line 17, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_quality-item.scss */
+/* line 17, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_quality-item.scss */
 .quality-item {
   opacity: 0;
   -webkit-transition: opacity 2s;
   transition: opacity 2s;
   margin-bottom: 30px; }
 
-/* line 1, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_opacity.scss */
+/* line 1, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_opacity.scss */
 .opacity-delay-1 {
   -webkit-transition-delay: 0s;
   transition-delay: 0s; }
 
-/* line 6, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_opacity.scss */
+/* line 6, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_opacity.scss */
 .opacity-delay-2 {
   -webkit-transition-delay: 0s;
   transition-delay: 0s; }
 
 @media (min-width: 991px) {
-  /* line 12, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_opacity.scss */
+  /* line 12, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_opacity.scss */
   .opacity-delay-1 {
     -webkit-transition-delay: 1s;
     transition-delay: 1s; }
-  /* line 16, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_opacity.scss */
+  /* line 16, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_opacity.scss */
   .opacity-delay-2 {
     -webkit-transition-delay: 2s;
     transition-delay: 2s; } }
 
-/* line 1, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_bottom-logo.scss */
+/* line 1, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_bottom-logo.scss */
 .bottom-logo-wrapper {
   display: inline-block;
   height: 150px;
   float: right;
   width: 150px;
   margin-top: -100px; }
-  /* line 7, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_bottom-logo.scss */
+  /* line 7, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_bottom-logo.scss */
   .bottom-logo-wrapper span {
     display: block;
     color: white; }
-  /* line 11, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_bottom-logo.scss */
+  /* line 11, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_bottom-logo.scss */
   .bottom-logo-wrapper img {
     height: 100px; }
 
-/* line 1, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_scroll-advice.scss */
+/* line 1, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_scroll-advice.scss */
 .scroll-advice {
   display: none;
   position: fixed;
@@ -923,14 +919,14 @@ label[for="Close"] {
   right: 5%;
   bottom: 5%;
   z-index: 1000; }
-  /* line 13, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_scroll-advice.scss */
+  /* line 13, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_scroll-advice.scss */
   .scroll-advice i {
     padding-left: 2px;
     margin: auto;
     color: rgba(255, 255, 255, 0.5);
     z-index: 1000; }
 
-/* line 1, ../../Users/Сергей Садчиков/Desktop/Alion gif headers/scss/_bootstrap-overrides.scss */
+/* line 1, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_bootstrap-overrides.scss */
 .col-xs-12 .table-collision {
   padding: 0;
   margin-right: -1px; }
