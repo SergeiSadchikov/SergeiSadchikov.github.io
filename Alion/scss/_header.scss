@@ -12,7 +12,12 @@ svg {
 }
 .header{
     opacity: 0;
-    height: 65px;
+    height: 55px;
     margin-top: 20px;
     transition:opacity 0.8s;
+}
+@media(max-width:991px){
+    #DistrictHeader{
+        height: 49px;
+    }
 }

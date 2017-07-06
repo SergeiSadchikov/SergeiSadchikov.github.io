@@ -545,6 +545,11 @@ th, td {
   margin-top: 0;
   opacity: 1; }
 
+@media (max-width: 991px) {
+  /* line 21, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_menu.scss */
+  .menu__item {
+    font-size: 10px; } }
+
 /* line 1, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_header.scss */
 svg {
   display: block;
@@ -562,9 +567,14 @@ svg {
 /* line 13, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_header.scss */
 .header {
   opacity: 0;
-  height: 65px;
+  height: 55px;
   margin-top: 20px;
   transition: opacity 0.8s; }
+
+@media (max-width: 991px) {
+  /* line 20, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_header.scss */
+  #DistrictHeader {
+    height: 49px; } }
 
 /* line 1, ../../Users/Сергей Садчиков/Desktop/Алион new/Alion gif headers/scss/_contacts.scss */
 .contacts {

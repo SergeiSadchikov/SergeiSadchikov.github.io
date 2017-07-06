@@ -1,5 +1,6 @@
 $('#MenuHeader').one('inview', function () {
     $('#MenuHeader').addClass('hidden-header');
+    $('.scroll-advice').css('visibility', 'hidden');
 });
 $('#DistrictHeader').one('inview', function () {
     $('#DistrictHeader').addClass('hidden-header');

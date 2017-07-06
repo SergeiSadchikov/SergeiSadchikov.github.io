@@ -17,3 +17,8 @@
     margin-top: 0;
     opacity: 1;
 }
+@media(max-width: 991px){
+    .menu__item{
+        font-size: 10px;
+    }
+}
