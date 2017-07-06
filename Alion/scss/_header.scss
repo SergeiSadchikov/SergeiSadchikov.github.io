@@ -6,19 +6,13 @@ svg {
     margin-top: 50px;
     margin-bottom: 30px;
 }
-object{
-    width: 60%;
-    max-height: 5vh;
-    margin-top: 50px;
-    margin-bottom: 30px;
+.hidden-header{
+    opacity: 1 !important;
+    transition:opacity 0.8s;
 }
-.gif_header{
-    height: 70px;
+.header{
+    opacity: 0;
+    height: 65px;
     margin-top: 20px;
-}
-#ContactsHeader{
-    height: 60px;
-}
-#QualityHeader{
-    height: 60px;
+    transition:opacity 0.8s;
 }
